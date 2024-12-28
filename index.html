@@ -3,10 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bot Site</title>
+    <title>My Bot Blog</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Center Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        td {
+            background-color: #f8f9fa;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Blog Entry Styling */
+        .blog-entry {
+            text-align: left;
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-entry h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        .blog-entry p {
+            line-height: 1.6;
+        }
+
+        /* Footer Styling */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Bot Site</h1>
-    <p>Status and updates will be posted here.</p>
+    <div class="container">
+        <!-- Table at the Top -->
+        <table>
+            <tr>
+                <th>Platform</th>
+                <th>Capabilities</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Discord</td>
+                <td>Chat and Notifications</td>
+                <td><a href="https://discord.com/">Join</a></td>
+            </tr>
+            <tr>
+                <td>Telegram</td>
+                <td>Messaging and Updates</td>
+                <td><a href="https://telegram.org/">Join</a></td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td>Status and Documentation</td>
+                <td><a href="https://example.com/">Visit</a></td>
+            </tr>
+        </table>
+
+        <!-- Blog Entries -->
+        <div class="blog-entry">
+            <h2>Update 1: Bot Launch</h2>
+            <p>We’re excited to announce the launch of our bot! It’s now live on Discord and Telegram. Join us to explore its capabilities.</p>
+            <p><strong>Date:</strong> 2024-12-28</p>
+        </div>
+
+        <div class="blog-entry">
+            <h2>Update 2: New Features Added</h2>
+            <p>We’ve added several new features, including real-time notifications and integration with more platforms. Stay tuned for more updates!</p>
+            <p><strong>Date:</strong> 2024-12-29</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 My Bot Blog. All rights reserved.
+    </footer>
 </body>
 </html>
